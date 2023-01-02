@@ -1,0 +1,22 @@
+#search-button {
+  padding: 10% 80%;
+  background-color: rgb(94, 171, 213);
+  color: white;
+}
+
+#today {
+  border: 1px solid;
+  border-color: black;
+}
+
+#history > button {
+  background-color: rgb(121, 118, 118);
+  color: white;
+}
+
+#forecast-container {
+  border: 1px solid;
+  border-color: black;
+  background-color: rgb(94, 171, 213);
+  color: white;
+}

@@ -51,26 +51,44 @@
                     Search
                   </button>
                   <hr class="hr weather-hr" />
+
+                  
                 </div>
               </div>
             </div>
           </form>
-          <div class="list-group" id="history"></div>
+          <div class="list-group" id="history">
+            <button>Berlin</button>
+            <button>Paris</button>
+            <button>Edinburgh</button>
+            <button>Madrid</button>
+            <button>Birmingham</button>
+            <button>London</button>
+          </div>
         </aside>
 
         <main class="col-lg-9 pb-3">
-          <section
-            id="today"
-            class="mt-3"
-            role="region"
-            aria-live="polite"
-          ></section>
+          <section id="today" class="mt-3" role="region" aria-live="polite">
+            <h2>London (14/9/2022)</h2>
+            <div>Temp: 13.63°</div>
+            <div>Wind: 1.7 KPH</div>
+            <div>Humidity: 84%</div>
+          </section>
+
           <section
             id="forecast"
             class="row mt-3"
             role="region"
             aria-live="polite"
-          ></section>
+          >
+            <h2>5-Day Forecast:</h2>
+            <div id="forecast-container">
+              <div>15/9/2022</div>
+              <div>Temp: 13.63°</div>
+              <div>Wind: 1.7 KPH</div>
+              <div>Humidity: 84%</div>
+            </div>
+          </section>
         </main>
       </div>
     </div>
