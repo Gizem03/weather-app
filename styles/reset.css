@@ -7,11 +7,20 @@
 #today {
   border: 1px solid;
   border-color: black;
+  padding: 10px;
 }
 
 #history > button {
   background-color: rgb(121, 118, 118);
   color: white;
+  display: block;
+  margin-bottom: 8px;
+}
+
+#five-day-title {
+  display: block;
+  position: relative;
+  padding: 10px;
 }
 
 #forecast-container {
@@ -19,4 +28,13 @@
   border-color: black;
   background-color: rgb(94, 171, 213);
   color: white;
+  display: block;
+  top: 100%;
+  position: absolute;
+  padding: 10px;
+  margin-top: 20px;
+  font-size: medium;
+}
+#forecast-container > div {
+  padding: 5px;
 }

@@ -51,8 +51,6 @@
                     Search
                   </button>
                   <hr class="hr weather-hr" />
-
-                  
                 </div>
               </div>
             </div>
@@ -77,17 +75,19 @@
 
           <section
             id="forecast"
-            class="row mt-3"
+            class="row mt-3 card-deck"
             role="region"
             aria-live="polite"
           >
-            <h2>5-Day Forecast:</h2>
-            <div id="forecast-container">
-              <div>15/9/2022</div>
-              <div>Temp: 13.63°</div>
-              <div>Wind: 1.7 KPH</div>
-              <div>Humidity: 84%</div>
-            </div>
+            <h2 id="five-day-title" class="card">
+              5-Day Forecast:
+              <div id="forecast-container">
+                <div>15/9/2022</div>
+                <div>Temp: 13.63°</div>
+                <div>Wind: 1.7 KPH</div>
+                <div>Humidity: 84%</div>
+              </div>
+            </h2>
           </section>
         </main>
       </div>
